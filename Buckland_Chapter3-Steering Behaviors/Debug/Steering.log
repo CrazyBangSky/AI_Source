@@ -1,0 +1,74 @@
+﻿生成启动时间为 2018/4/22 0:05:54。
+     1>项目“D:\code\AI Source\LATEST vc6-vc10\VS2010\Buckland_Chapter3-Steering Behaviors\Steering.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\Steering.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“.\Debug\Steering.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt GameWorld.cpp main.cpp SteeringBehaviors.cpp Vehicle.cpp ..\Common\misc\Cgdi.cpp ..\Common\misc\iniFileLoaderBase.cpp Obstacle.cpp ParamLoader.cpp Path.cpp ..\Common\Time\PrecisionTimer.cpp ..\Common\2D\Vector2d.cpp ..\Common\misc\WindowUtils.cpp
+         WindowUtils.cpp
+         Vector2d.cpp
+         PrecisionTimer.cpp
+         Path.cpp
+         ParamLoader.cpp
+         Obstacle.cpp
+         iniFileLoaderBase.cpp
+     1>d:\code\ai source\latest vc6-vc10\vs2010\common\misc\inifileloaderbase.cpp(9): warning C4305: “参数”: 从“int”到“char”截断
+     1>d:\code\ai source\latest vc6-vc10\vs2010\common\misc\inifileloaderbase.cpp(9): warning C4309: “参数”: 截断常量值
+     1>d:\code\ai source\latest vc6-vc10\vs2010\common\misc\inifileloaderbase.cpp(57): warning C4129: “;”: 不可识别的字符转义序列
+     1>d:\code\ai source\latest vc6-vc10\vs2010\common\misc\inifileloaderbase.cpp(109): warning C4129: “;”: 不可识别的字符转义序列
+         Cgdi.cpp
+         Vehicle.cpp
+         SteeringBehaviors.cpp
+         main.cpp
+         GameWorld.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0809" /nologo /fo".\Debug\Script1.res" Script1.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\Steering.exe.embed.manifest.res" .\Debug\Steering_manifest.rc 
+       Link:
+         D:\Program Files (x86)\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/Steering.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\Steering.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/Steering.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\Steering.lib" /MACHINE:X86 .\Debug\Script1.res
+         .\Debug\Steering.exe.embed.manifest.res
+         .\Debug/GameWorld.obj
+         .\Debug/main.obj
+         .\Debug/SteeringBehaviors.obj
+         .\Debug/Vehicle.obj
+         .\Debug/Cgdi.obj
+         .\Debug/iniFileLoaderBase.obj
+         .\Debug/Obstacle.obj
+         .\Debug/ParamLoader.obj
+         .\Debug/Path.obj
+         .\Debug/PrecisionTimer.obj
+         .\Debug/Vector2d.obj
+         .\Debug/WindowUtils.obj
+       Manifest:
+         正在删除文件“.\Debug\Steering.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\Steering.exe.embed.manifest" /manifest .\Debug\Steering.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\Steering.exe.embed.manifest.res" .\Debug\Steering_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/Steering.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\Steering.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/Steering.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\Steering.lib" /MACHINE:X86 .\Debug\Script1.res
+         .\Debug\Steering.exe.embed.manifest.res
+         .\Debug/GameWorld.obj
+         .\Debug/main.obj
+         .\Debug/SteeringBehaviors.obj
+         .\Debug/Vehicle.obj
+         .\Debug/Cgdi.obj
+         .\Debug/iniFileLoaderBase.obj
+         .\Debug/Obstacle.obj
+         .\Debug/ParamLoader.obj
+         .\Debug/Path.obj
+         .\Debug/PrecisionTimer.obj
+         .\Debug/Vector2d.obj
+         .\Debug/WindowUtils.obj
+         Steering.vcxproj -> D:\code\AI Source\LATEST vc6-vc10\VS2010\Buckland_Chapter3-Steering Behaviors\.\Debug\Steering.exe
+       BscMake:
+         D:\Program Files (x86)\VS2010\VC\bin\bscmake.exe /nologo /o".\Debug/Steering.bsc" .\Debug\GameWorld.sbr .\Debug\main.sbr .\Debug\SteeringBehaviors.sbr .\Debug\Vehicle.sbr .\Debug\Cgdi.sbr .\Debug\iniFileLoaderBase.sbr .\Debug\Obstacle.sbr .\Debug\ParamLoader.sbr .\Debug\Path.sbr .\Debug\PrecisionTimer.sbr .\Debug\Vector2d.sbr .\Debug\WindowUtils.sbr
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\Steering.unsuccessfulbuild”。
+         正在对“.\Debug\Steering.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\code\AI Source\LATEST vc6-vc10\VS2010\Buckland_Chapter3-Steering Behaviors\Steering.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.79

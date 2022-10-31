@@ -1,0 +1,21 @@
+﻿生成启动时间为 2018/4/22 3:05:00。
+     1>项目“D:\code\AI Source\LATEST vc6-vc10\VS2010\Buckland_Chapter6_Scripting_Source\lua_using_cpp\lua_using_cpp.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\lua_using_cpp.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“.\Debug\lua_using_cpp.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\lua_using_cpp.exe.embed.manifest.res" .\Debug\lua_using_cpp_manifest.rc 
+       Link:
+         D:\Program Files (x86)\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/lua_using_cpp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\lua_using_cpp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/lua_using_cpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\lua_using_cpp.lib" /MACHINE:X86 .\Debug\lua_using_cpp.exe.embed.manifest.res
+         .\Debug/main.obj
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : fatal error LNK1123: 转换到 COFF 期间失败: 文件无效或损坏
+     1>已完成生成项目“D:\code\AI Source\LATEST vc6-vc10\VS2010\Buckland_Chapter6_Scripting_Source\lua_using_cpp\lua_using_cpp.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.93
