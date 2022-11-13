@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GBWPowerfulHit.cpp.obj": [
+			"GBW_HitBoxComponent.cpp.obj",
+			"GBW_TrailArrow.cpp.obj",
+			"GBWPowerfulHit.cpp.obj",
+			"GBWPowerfulHitFuncLib.cpp.obj",
+			"GBWPowerfulHitNetWorkObject.cpp.obj"
+		],
+		"Module.GBWPowerfulHit.gen.cpp.obj": [
+			"GBW_HitBoxComponent.gen.cpp.obj",
+			"GBW_TrailArrow.gen.cpp.obj",
+			"GBWPowerfulHit.init.gen.cpp.obj",
+			"GBWPowerfulHitFuncLib.gen.cpp.obj",
+			"GBWPowerfulHitNetWorkObject.gen.cpp.obj"
+		]
+	}
+}
